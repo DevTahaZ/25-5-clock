@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: #333;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.top-labels {
+    width: 500px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 140px;
+    gap: 200px;
+    font-size: 22px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+#timer-label {
+    width: 270px;
+    height: 210px;
+    display: grid;
+    font-size: 25px;
+    border: 7px solid #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+#timer-label>time {
+    font-family: digital;
+    font-size: 80px;
+}
+
+.inc-dec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: digital;
+}
+.time {
+    font-size: 20px;
+}
+
+
+
+
+button {
+    margin-top: 10px;
+}
+button:hover {
+    opacity: 0.8;
+}
+.material-icons {
+    color: black;
+    font-weight: 800;
+}
