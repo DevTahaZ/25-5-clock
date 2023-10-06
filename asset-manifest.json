@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/25-5-clock/static/css/main.0bb567c4.css",
+    "main.js": "/25-5-clock/static/js/main.27fb5b7d.js",
+    "static/media/breakbeep.mp3": "/25-5-clock/static/media/breakbeep.40e5c7db2b65c3a9b088.mp3",
+    "index.html": "/25-5-clock/index.html",
+    "main.0bb567c4.css.map": "/25-5-clock/static/css/main.0bb567c4.css.map",
+    "main.27fb5b7d.js.map": "/25-5-clock/static/js/main.27fb5b7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bb567c4.css",
+    "static/js/main.27fb5b7d.js"
+  ]
+}
