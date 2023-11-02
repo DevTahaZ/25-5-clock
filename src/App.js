@@ -3,9 +3,9 @@ import audio from "./breakbeep.mp3";
 import "./App.css";
 
 function App() {
-  const [displayTime, setDisplayTime] = useState(5);
-  const [breakLength, setBreakLength] = useState(3);
-  const [sessionLength, setSessionLength] = useState(5);
+  const [displayTime, setDisplayTime] = useState(25 * 60);
+  const [breakLength, setBreakLength] = useState(5 * 60);
+  const [sessionLength, setSessionLength] = useState(25 * 60);
   const [timerOn, setTimerOn] = useState(false);
   const [onBreak, setOnBreak] = useState(false);
   const [breakAudio, setBreakAudio] = useState(new Audio(audio));
@@ -110,7 +110,7 @@ function App() {
         <time>{formatTime(displayTime)}</time>
         <button
           id="start_stop"
-          className="btn-large #ffffff white"
+          className="btn-1 #ffffff white"
           onClick={contolTime}
         >
           {timerOn ? (
@@ -119,11 +119,7 @@ function App() {
             <i className="material-icons">play_circle_filled</i>
           )}
         </button>
-        <button
-          id="reset"
-          className="btn-large #ffffff white"
-          onClick={resetTime}
-        >
+        <button id="reset" className="#ffffff white" onClick={resetTime}>
           <i className="material-icons">autorenew</i>
         </button>
       </div>
